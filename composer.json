@@ -1,0 +1,25 @@
+{
+  "name": "yuncms/yuncms-broadcast-aliyun",
+  "description": "The aliyun broadcast for yuncms.",
+  "keywords": [
+    "aliyun",
+    "broadcast",
+    "yuncms"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "require": {
+    "yuncms/framework": "~1.0",
+    "xutl/AliyunMNS": "~1.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yuncms\\broadcast\\aliyun\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.0-dev"
+    }
+  }
+}
