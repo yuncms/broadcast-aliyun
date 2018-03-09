@@ -6,7 +6,6 @@
     "broadcast",
     "yuncms"
   ],
-  "type": "yii2-extension",
   "license": "MIT",
   "require": {
     "yuncms/framework": "~1.0",
