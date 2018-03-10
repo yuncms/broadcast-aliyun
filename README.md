@@ -51,7 +51,7 @@ Add following lines to your main configuration file:
 $broadcast = Yii::$app->broadcast;
 
 
-$res = $broadcast->sendMessage([
+$res = $broadcast->send([
     'Key'=>'value',
     //etc ...
 ]);
