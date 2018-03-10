@@ -108,7 +108,7 @@ class Broadcast extends BaseBroadcast
      */
     protected function sendMessage($message)
     {
-        $request = new PublishMessageRequest($message->toString(), $message->getTag(), $message->getAttributes());
+        $request = new PublishMessageRequest($message->toJson(), $message->getTag(), $message->getAttributes());
         $request->setTopicName($this->topicName);
         $response = new PublishMessageResponse();
         $this->getClient()->sendRequest($request, $response);
